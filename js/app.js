@@ -2,7 +2,7 @@ const $main = $('main')
 const $selector = $('#image-selector')
 const allDogs = []
 
-const apiURL = 'https://raw.githubusercontent.com/CodePartnersMD/MD301-02/master/02-jquery-selectors-events/demo/data.json'
+const apiURL = 'https://github.com/kberaki/lab-02-repository/blob/lab-2/json.md'
 
 
 const Dog = function(title, filePath, description) {
