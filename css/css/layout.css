@@ -1,0 +1,16 @@
+.image {
+  width: 200px;
+  height: 200px;
+}
+
+main {
+  display: inline-flex;
+  flex-direction:row-reverse ;
+  justify-content: space-around;
+  align-items:center;
+  margin: 10px;
+  flex-flow: row;
+  flex-wrap: wrap-reverse;
+  margin-top: 10px;
+   
+}
