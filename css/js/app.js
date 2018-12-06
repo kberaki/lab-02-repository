@@ -38,7 +38,7 @@ $.getJSON(apiURL)
     // console.log($(`option[value='Odie']`))
     // if($(`option[value='photo']`[0])) {
     //   console.log('nope')
-    // }
+    // //}
   })
 
 
