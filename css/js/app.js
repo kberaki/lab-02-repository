@@ -30,7 +30,7 @@ $($selector).on('change', () => {
 $.getJSON(apiURL)
   .then(response => {
     response.forEach(photo => {
-      let newphoto = new Photo(photo.title, photo.image_url,photo.description, photo.title)
+      let newphoto = new Photo(photo.title, photo.image_url,photo.description, photo.keyword)
       newphoto.displayPhoto()
       allPhotos.push(newphoto)
       $selector.append(`<option value=${newphoto.keyword}>${newphoto.keyword}</option>`)
@@ -38,9 +38,8 @@ $.getJSON(apiURL)
     // console.log($(`option[value='Odie']`))
     // if($(`option[value='photo']`[0])) {
     //   console.log('nope')
-    // //}
+    // /}
   })
-
 
 
 
