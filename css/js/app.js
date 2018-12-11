@@ -35,12 +35,7 @@ $.getJSON(apiURL)
       allPhotos.push(newphoto)
       $selector.append(`<option value=${newphoto.keyword}>${newphoto.keyword}</option>`)
     })
-    // console.log($(`option[value='Odie']`))
-    // if($(`option[value='photo']`[0])) {
-    //   console.log('nope')
-    // /}
-
-    //
+    
   })
 
 
